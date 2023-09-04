@@ -1,0 +1,55 @@
+body {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+  background-position: center;
+  background-size: 700px 500px;
+  background-repeat: no-repeat;
+}
+li {
+  list-style-type: none;
+  text-align: left;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+h3 {
+  font-size: 80px;
+}
+
+.current-temp {
+  padding: 5px;
+  margin: 10px 0px;
+  background: white;
+  border-radius: 8px;
+}
+
+.current-num {
+  font-size: 50px;
+}
+
+.future-temps {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+header {
+  margin-top: 30px;
+}
+
+footer {
+  padding: 2px;
+  font-size: 8px;
+  text-align: right;
+}
